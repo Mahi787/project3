@@ -6,11 +6,13 @@
     <title>Advanced css </title>
     <link rel="shortcut icon" href="1.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="grid.css"> 
 </head>
 <body>
-    <div class="header">
+    <div class="header clearfix">
         <div class="intro">
             <div class="logo">
                 <a href="javascript:void(0);">
@@ -130,65 +132,55 @@
             </div>
         </div>
         <div class="text-box">
-            <h1>Hey There ! We Are A Tipical Brand of making a software protected.</h1>
+            <h1>Hey There ! We Are A Tipical Brand of Making a Software Protected.</h1>
             <button class="btn"><span class="inside">GET STARTED</span></button>
         </div>
-    </div>
-    <section style="width: 100%; height: 500px; background-color: #111;">
-    <div class="content">
-        <img src="image.jpg" alt=""class="my-img">
-        <div class="hover-content">
-            <div class="main">
-                <div class="name">
-                    <h1>Ishat Noor Mahi</h1>
-                <p>Marketing Oficcer</p>
-                </div>
-                <div class="description">
-                    Et sed eos dolor dolor erat sit. Justo sit eirmod diam vero, aliquyam justo sit diam accusam duo, lorem duo.
-                </div>
-                <div class="links">
-                    <ul>
-                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-skype"></i></a></li>
-                        <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-apple"></i></a></li>
-                    </ul>
-                </div>                
-            </div>            
-        </div>
-    </div>
-    <div class="fade" style="margin-left: 30%;">
-        <img src="image.jpg" alt="" class="img2" style="width: 400px; height: 450px;">
-        <div class="overlay">
-            <h2>Anne Hathaway</h2>
-            <p><b>Product Handler</b></p>
-            <hr>
-            <p> gubergren no sit dolor sit, voluptua amet eos gubergren tempor elitr dolores sit. Amet invidunt takimata sit sanctus at dolore. Elitr invidunt aliquyam sadipscing dolor lorem nonumy ipsum stet. Clita vero dolor sed ut gubergren dolore.</p>
-            <hr>
-            <button class="contact-btn">Contact Now !</button>
-            <div class="links-2">
-               <ul>
-                   <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                   <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                   <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                   <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
-                   <li><a href=""><i class="fab fa-github"></i></a></li>
-               </ul> 
+        <div class="searchbox clearfix">
+            <div class="search_wrap">
+                <input type="search" class="search" spellcheck="false" placeholder="Search Service Inside this Category">
+            </div>
+            <div class="search_icon">
+                <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="20" width="20" style="  margin-top:25%;" viewBox="0 0 512 512" class="_1PQSW" style="vertical-align:middle"><title>Search</title><g><path d="M507.5 469.3c0 10.5-3.8 19.5-11.5 27.2s-16.7 11.5-27.2 11.5c-10.9 0-20-3.8-27.2-11.5l-103.7-103.4c-36.1 25-76.3 37.5-120.6 37.5-28.8 0-56.4-5.6-82.7-16.8s-49-26.3-68-45.3-34.2-41.7-45.3-68c-11.2-26.3-16.8-53.9-16.8-82.7s5.6-56.4 16.8-82.7 26.3-49 45.3-68 41.7-34.2 68-45.3c26.3-11.2 53.9-16.8 82.7-16.8s56.4 5.6 82.7 16.8c26.3 11.2 49 26.3 68 45.3s34.2 41.7 45.3 68c11.2 26.3 16.8 53.9 16.8 82.7 0 44.3-12.5 84.5-37.5 120.6l103.7 103.7c7.5 7.5 11.2 16.5 11.2 27.2zm-154.8-251.5c0-37.3-13.2-69.2-39.8-95.7-26.5-26.5-58.4-39.8-95.7-39.8s-69.2 13.3-95.7 39.8-39.8 58.4-39.8 95.7 13.2 69.2 39.8 95.7c26.5 26.5 58.4 39.8 95.7 39.8s69.2-13.2 95.7-39.8c26.6-26.5 39.8-58.4 39.8-95.7z"></path></g></svg>
             </div>
         </div>
-    </div> 
-    <button style="padding: 10px 20px;font-size: 15px;display: block;position: absolute;left: 45%;color: #ffffffda;" onclick="" id="js">Enable Dark Mode</button> 
-    </section>
-    <div class="anim" >    
-    </div>   
-<script src="custom.js"></script>  
-<section>
-    <div>
-        <i class="fas fa-toggle-off" style="font-size: 40px;" onclick="enableDark()" id="toggler"></i>
-    </div> 
-</section>
+        <div class="row clearfix">
+            <div class="col span_1_of_2">
+                <div class="img_wrap">
+                    <img src="new2.jpg" alt="">
+                </div>
+                <div class="info">
+                    <div class="info_wrap">
+                        <h3>Wordpress Elementor Theme</h3>
+                        <div class="yw3yv"><span class="theme_author" style="font-style: italic; font-size: 14px;">by &nbsp;&nbsp;</span> <a href="#">Kevin Luich</a></div>
+                        <div class="price">15$</div>
+                        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div class="sales"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <div class="img_wrap">
+                    <img src="medical-website-template.jpg" alt="">
+                </div>
+                <div class="info">
+                        <h3>Wordpress Elementor Theme Buisness Class</h3>
+                        <div class="info_wrap">
+                            <div class="yw3yv"><span class="theme_author" style="font-style: italic; font-size: 14px;">by&nbsp;&nbsp;</span> <a href="#">Kevin Luich</a></div>
+                            <div class="price"><p style="font-size: 20px;">15$</p></div>
+                            <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <div class="sales"><p>9 Sales</p></div>
+                            <div class="preview">
+                                <button class="prv"><a href="javascript:void(0)">Preview</a></button>
+                            </div>
+                            <div class="cart">
+                                <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 16 16" style="vertical-align: middle;"><title>Cart</title><g><path d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 15.23 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.777 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="custom.js"></script>
 <script src=".jshintrc"></script>
 </body>
